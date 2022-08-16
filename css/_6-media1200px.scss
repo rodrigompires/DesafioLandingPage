@@ -1,0 +1,150 @@
+@media screen and (max-width: 1199px) and (min-width: 920px){
+
+    body {
+        background-color: rgb(250, 260, 260);
+    }
+
+    header {
+        background-image: url(../images/bg-hero-desktop.svg);
+        
+        .headerContent {
+            padding: 2.8rem 4.3rem 3.4rem 4.5rem;
+            margin-bottom: 5.8rem;
+
+            .headerNav {
+                
+                .headerInternal {
+
+                    .btnNav {
+                        width: 9.2rem;
+                        height: 2rem;
+                        box-shadow: 0 0 1px -5px rgba(0, 0, 0, .7);
+                        font-size: .62rem;
+                    }
+                    
+                    .imgLogo {
+                        width: 9.1rem;
+                    }
+                }
+            }
+            
+        }
+
+        .headerTexts {
+            display: grid;
+            grid-template-columns: 40% 60%;
+           
+            .internalHeaderTexts {
+                margin-top: 5rem;
+
+            h1 {
+                font-size: 1.5rem !important;
+                text-align: start !important;
+            }
+
+            p {
+                text-align: start;
+                font-size: .8rem !important;
+                margin-top: 1.3rem;
+                line-height: 1.5rem !important;
+            }
+
+            button {
+                letter-spacing: .05rem;
+                padding: 15.8px 48.8px 15.8px 48.8px !important;
+                font-size: .5rem !important;
+                border-radius: 1.67rem;
+                margin-right: 44.9%;
+                white-space: nowrap;   
+            }
+
+            }
+
+
+        }
+    }
+
+
+
+    main {
+        padding: 1.2rem 6.8rem 1rem 6.8rem;
+        
+        
+        .cardMain {
+        
+            display: grid;
+            grid-template-columns: 1fr;
+            // gap: 9%;
+            // margin-top: 7.8rem;
+            min-height: 24.5rem;
+            text-align: center;
+            box-shadow: 0px 0px 10px -1px #bec0e6;
+
+
+
+
+        .cardMainImg {
+
+            order: 2;            
+    
+            padding: 3rem 2.4rem .5rem 2.4rem;
+
+            .imgIlustration {
+                width: 100%;
+                min-width: 80%;
+      
+
+            }
+
+        }
+
+        .cardMainTexts {
+            padding: unset;
+            order: 1;
+            margin-top: 2.88rem;
+
+            
+            h1 {
+                font-family: $Poppins;
+                font-size: 1.56rem;
+                padding-left: 2rem;
+            }
+
+            p {
+                font-family: $OpenSans;
+                font-size: 1rem;
+                padding: 1rem 2rem 2rem 2rem;
+                color: $GrayishBlue;
+                line-height: 1.4rem;
+            }
+        }
+
+        }
+
+
+
+        .child2 {
+            grid-template-columns: 1fr;
+
+            .cardMainImg {
+                order: 2 !important;
+                padding: 4rem 2.4rem .5rem 6.7rem;
+            }
+
+            .cardMainTexts {
+                order: 1 !important;
+                padding: unset;
+
+                h1 {
+                    margin-top: unset;
+                }
+
+            }
+        }
+
+        .child3 {
+            margin-bottom: unset;
+        }
+    }
+
+}

@@ -1,0 +1,230 @@
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+
+    header {
+        background-image: url(../images/bg-hero-desktop.svg);
+        
+        .headerContent {
+            padding: 2.8rem 4.3rem 3.4rem 4.5rem;
+            margin-bottom: 5.8rem;
+
+            .headerNav {
+                
+                .headerInternal {
+
+                    .btnNav {
+                        width: 11.2rem;
+                        height: 2.8rem;
+                        box-shadow: 0 0 1px -5px rgba(0, 0, 0, .7);
+                        font-size: .82rem;
+                    }
+                    
+                    .imgLogo {
+                        width: 11.1rem;
+                    }
+                }
+            }
+            
+        }
+
+        .headerTexts {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            padding: unset !important;
+            gap: 4rem;
+           
+
+            .internalHeaderTexts {
+                margin-top: 9rem;
+                
+                h1 {
+                    font-size: 2.2rem !important;
+                    text-align: start !important;
+                }
+
+                p {
+                    text-align: start;
+                    font-size: 1rem !important;
+                    margin-top: 1.3rem;
+                    line-height: 1.5rem !important;
+                }
+
+                button {
+                    letter-spacing: .05rem;
+                    padding: 20.8px 68.8px 20.8px 68.8px !important;
+                    font-size: .6rem !important;
+                    border-radius: 1.67rem;
+                    margin-right: 44.9%;
+                    white-space: nowrap;
+                    
+                    
+                }
+            }
+
+            .headerImg {
+                margin-top: 3.5rem !important;
+                width: 90%; 
+                
+
+                img {
+                    width: 100%;
+                }
+            }
+        }   
+        
+    }
+
+    main {
+        padding: 1.2rem 5.8rem 1rem 5.8rem;
+        
+        
+        .cardMain {
+        
+            display: grid;
+            grid-template-columns: 52% 39%;
+            gap: 9%;
+            min-height: 24.5rem;
+            text-align: start;
+
+
+        .cardMainImg {
+            order: 2;            
+    
+            padding: 3rem 2.4rem .5rem 2.4rem;
+
+            .imgIlustration {
+                width: 100%;
+                min-width: 80%;
+      
+
+            }
+
+        }
+
+        .cardMainTexts {
+            padding: 5.4rem 0rem 0rem 4.6rem;
+            order: 1;
+            margin-top: 2.88rem;
+            
+            h1 {
+                font-family: $Poppins;
+                font-size: 1.56rem;
+                padding-left: 2rem;
+            }
+
+            p {
+                font-family: $OpenSans;
+                font-size: 1rem;
+                padding: 1rem 2rem 2rem 2rem;
+                color: $GrayishBlue;
+                line-height: 1.4rem;
+            }
+        }
+
+        }
+
+
+
+        .child2 {
+            grid-template-columns: 49% 46%;
+            gap: 5%;
+
+            .cardMainImg {
+                order: 1 !important;
+                padding: 4rem 2.4rem .5rem 6.7rem;
+            }
+
+            .cardMainTexts {
+                order: 2 !important;
+                padding: 5.6rem 0rem 0rem 0rem;
+
+                h1 {
+                    margin-top: .3rem;
+                }
+
+            }
+        }
+
+        .child3 {
+            margin-bottom: 6.2rem;
+        }
+    }
+
+
+    .contentFooter {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        padding: 3rem 2rem 6.1rem 5.8rem;
+
+    
+        .cardFooter {
+            width: 55.5%;
+            padding: 3.7rem 0 3.1rem 0;
+            top: -35%;
+            // display: none;
+
+            h3 {
+                font-size: 1.768rem;
+            }
+
+            button {
+                margin-top: 2rem;
+                padding: 1.5rem 5.4rem 1.5rem 5.4rem;
+                font-size: 1.02rem;
+                border-radius: 2rem;
+
+            }
+
+        }
+
+        .aboutCompany {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+
+        .listy2 {
+            margin-left:  5.2rem;
+
+        }
+            
+
+        ul {
+        margin-top: 7rem;
+        margin-left: 3.3rem;
+
+        }
+
+        }
+    }
+
+    .contacts {
+        
+
+        .footerLogo {
+            width: 13rem !important;
+        }
+        
+
+    }
+
+    .containerSocialNetworks {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 7.1rem;
+
+        .iconsSocialNetworks {
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+        }
+
+        .textCopyright {
+            white-space: nowrap;
+        }
+    }
+    
+}

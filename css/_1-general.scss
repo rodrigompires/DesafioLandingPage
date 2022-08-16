@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+// Para minha assinatura
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+
+// Cores
+
+$Pink: hsl(322, 100%, 66%);
+
+$VeryPaleCyan: hsl(193, 100%, 96%);
+$VeryDarkCyan: hsl(192, 100%, 9%);
+$GrayishBlue: hsl(208, 11%, 55%);
+
+$white: white;
+
+
+
+// Tipografias
+// Tamanho
+$FontSize: 18px;
+
+// Títulos
+$Poppins: 'Poppins', sans-serif;
+$WeightFontTitles: 600;
+
+// Corpo e demais
+$OpenSans: 'Open Sans', sans-serif;
+$OthersWeightFontSmaller: 400;
+$OthersWeightFontLarger: 700;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: $FontSize;
+    transition: all .3s ease;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 1440px;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
